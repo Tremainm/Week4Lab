@@ -6,10 +6,10 @@ import java.util.Scanner;
 
 public class Calculator {
     public static void main(String[] args) {
-        divide();
+        delete();
     }
 
-    public static void divide()
+    public static void delete()
     {
         System.out.println("Please enter first number: ");
         Scanner inputs = new Scanner(System.in);
