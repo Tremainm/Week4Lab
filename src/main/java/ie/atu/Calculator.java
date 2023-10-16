@@ -4,10 +4,10 @@ import java.util.Scanner;
 
 public class Calculator {
     public static void main(String[] args) {
-        multiply();
+        divide();
     }
 
-    public static void multiply()
+    public static void divide()
     {
         System.out.println("Please enter first number: ");
         Scanner inputs = new Scanner(System.in);
@@ -16,7 +16,7 @@ public class Calculator {
         System.out.println("Please enter second number");
         int secondNumber = inputs.nextInt();
 
-        int total = firstNumber * secondNumber;
+        int total = firstNumber / secondNumber;
         System.out.println("The total is " + total);
     }
 }
